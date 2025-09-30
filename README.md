@@ -8,17 +8,25 @@ if(pep=="y"):
         bill=17
     elif(size=="m"):
         bill=23
-    else:
+    elif(size=="l"):
         bill=28
-else:
+    else:
+    print("You entered wrong input for size")
+elif(pep=="n")
     if(size=="s"):
         bill=15
     elif(size=="m"):
         bill=20
-    else:
+    elif(size=="l"):
         bill=25
+    else:
+    print("You entered wrong input for size")   
+else:
+print("you entered wrong input for pepper")
 if(cheese=="y"):
     bill=bill+1
     print("Bill=",bill )        
+elif(cheese=="n"):
+     print("Bill=",bill )
 else:
-     print("Bill=",bill )   
+print("you entered wrong input for cheese")
