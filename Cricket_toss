@@ -1,0 +1,13 @@
+import random
+print("Welcom to the game of toss")
+num=random.randint(0,1)
+choice=input("Enter your choice Heads or Tails\n")
+if(num==0):
+    dum="Heads"
+else:
+    dum="Tails"
+if(dum==choice):
+    print("Congratulations!!\n YOU HAVE WON THE TOSS<3 ") 
+else:
+    print("You have lost the toss...your " 
+    "opponent gets to choose. \n BETTER LUCK NEXT TIME")   
